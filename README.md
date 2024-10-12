@@ -4,7 +4,8 @@
 
 To use this dotfile , follow these steps:
 
-<details> <summary>### 1. Install Dependencies</summary>
+<details> 
+  <summary>### 1. Install Dependencies</summary>
 
 #### Install Dependencies - Packages
 

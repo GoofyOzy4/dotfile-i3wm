@@ -1,5 +1,5 @@
 # Material You - I3WM Dotfile
-
+! NOT RELEASED 
 ## Installation
 
 To use this dotfile , follow these steps:
@@ -29,7 +29,8 @@ sudo zypper install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
 </details>
 
-### - 2. Install Fonts
+<details> 
+<summary><b>2. Install Fonts</b></summary>
 
 #### Create a local fonts directory if it doesn't exist
 ```bash

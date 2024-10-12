@@ -47,11 +47,16 @@ git clone https://github.com/hprobotic/Google-Sans-Font.git
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
 ```
 
-##### Unzip the downloaded file
-unzip JetBrainsMono.zip -d JetBrainsMono
+##### Unzip and move the downloaded files
+```bash
+unzip JetBrainsMono.zip -d ~/.local/share/fonts/Iosevka
+```
+```bash
 unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
-##### Move the fonts to the local fonts directory
-mv JetBrainsMono/* ~/.local/share/fonts/
+```
+```bash
+mv JetBrainsMono/* ~/.local/share/fonts/Google-Sans-Font
+```
 
 ##### Clean up the downloaded zip file and extracted directory
 rm -rf JetBrainsMono JetBrainsMono.zip

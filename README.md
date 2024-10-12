@@ -12,38 +12,44 @@ To install the required packages (picom, rofi, bluez, polybar, xclip, feh) on di
 
 ##### - Debian/Ubuntu-based:
 ```bash
-sudo apt update && sudo apt install git picom rofi bluez polybar thunar xclip feh -y
+sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
 ##### - Arch/Manjaro
 ```bash
-sudo pacman -S git picom rofi bluez polybar thunar xclip feh --noconfirm
+sudo pacman -S git unzip zip picom rofi bluez polybar thunar xclip feh --noconfirm
 ```
 ##### - Fedora
 ```bash
-sudo dnf install git picom rofi bluez polybar thunar xclip feh -y
+sudo dnf install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
 ##### - OpenSUSE
 ```bash
-sudo zypper git install picom rofi bluez polybar thunar xclip feh -y
+sudo zypper install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
-#### - Install Fonts
-##### Download the fonts zip files
-###### - JetBrainsMono
+### - 2. Install Fonts
+
+#### Create a local fonts directory if it doesn't exist
+```bash
+mkdir -p ~/.local/share/fonts
+```
+
+#### Download the fonts zip files
+##### - JetBrainsMono
 ```bash
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
 ```
-###### - Google Sans
+##### - Google Sans
 ```bash
 git clone https://github.com/hprobotic/Google-Sans-Font.git
 ```
-###### - Iosevka
+##### - Iosevka
 ```bash
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
 ```
 
 ##### Unzip the downloaded file
 unzip JetBrainsMono.zip -d JetBrainsMono
-
+unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
 ##### Move the fonts to the local fonts directory
 mv JetBrainsMono/* ~/.local/share/fonts/
 

@@ -1,4 +1,4 @@
-# - i3wm Dotfile - Material You
+# Material You - I3WM Dotfile
 
 ## Installation
 

@@ -1,10 +1,10 @@
 # - i3wm Dotfile - Material You
 
-# - Installation
+## Installation
 
 To use this dotfile , follow these steps:
 
-## 1. Install Dependencies
+### 1. Install Dependencies
 
 To install required packages (picom, rofi, bluez, polybar, xclip, feh) on different Linux distributions, use the following commands:
 

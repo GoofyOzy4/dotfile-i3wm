@@ -17,7 +17,7 @@ To use this dotfile , follow these steps:
 To install the required packages on different Linux distributions, use the following commands:
 
 <details> 
-<summary><b>Debian/Ubuntu-based:</b></summary>
+<summary><b2>Debian/Ubuntu-based:</b2></summary>
 ```bash
 sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```

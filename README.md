@@ -1,10 +1,10 @@
 # Material You - I3WM Dotfile
-<details> <summary>1. test 1</summary>
+
 ## Installation
 
 To use this dotfile , follow these steps:
 
-### 1. Install Dependencies
+<details> <summary>### 1. Install Dependencies</summary>
 
 #### Install Dependencies - Packages
 
@@ -26,6 +26,8 @@ sudo dnf install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```bash
 sudo zypper install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
+</details>
+
 ### - 2. Install Fonts
 
 #### Create a local fonts directory if it doesn't exist

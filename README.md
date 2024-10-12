@@ -1,8 +1,5 @@
 # - i3wm Dotfile - Material You
 
-## About
-Welcome to my **i3wm** configuration files, designed with the **Material You** aesthetic. Inspired by Google's Material You design. The goal is to create a smooth and beautiful appearance for the i3wm environment.
-
 ### Installation
 
 To use this dotfile , follow these steps:

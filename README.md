@@ -3,23 +3,21 @@
 
 screns
 
-## • About
+## ⭐ • About
 Dot file in the style of "Material You", inspired by Google. 
 
-## • Installation
+## ☘️ • Installation
 
 To use this dotfile , follow these steps:
 
 <details> 
 <summary><b>1. Install Dependencies</b></summary>
 
-#### > Install Dependencies
-
 To install the required packages on different Linux distributions, use the following commands:
 
 ##### - Debian/Ubuntu-based:
 ```bash
-sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh -y
+$ sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
 ##### - Arch/Manjaro
 ```bash

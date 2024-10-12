@@ -13,11 +13,13 @@ To use this dotfile , follow these steps:
 <details> 
 <summary><b>1. Install Dependencies</b></summary>
 
+
 To install the required packages on different Linux distributions, use the following commands:
 
-##### - Debian/Ubuntu-based:
+<details> 
+<summary><b>Debian/Ubuntu-based:</b></summary>
 ```bash
-$ sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh -y
+sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
 ##### - Arch/Manjaro
 ```bash

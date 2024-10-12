@@ -36,7 +36,7 @@ sudo zypper install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 </details>
 
 <details> 
-<summary><b>2. Install Fonts</b></summary>
+<summary><b2>2. Install Fonts</b2></summary>
 
 #### • Create a local fonts directory if it doesn't exist
 ```bash

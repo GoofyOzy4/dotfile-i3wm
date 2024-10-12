@@ -5,7 +5,7 @@
 To use this dotfile , follow these steps:
 
 <details> 
-  <summary>### 1. Install Dependencies</summary>
+<summary><b>1. Install Dependencies</b></summary>
 
 #### Install Dependencies - Packages
 

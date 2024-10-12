@@ -8,7 +8,7 @@ To use this dotfile , follow these steps:
 
 #### Install Dependencies - Packages
 
-To install the required packages (picom, rofi, bluez, polybar, xclip, feh) on different Linux distributions, use the following commands:
+To install the required packages on different Linux distributions, use the following commands:
 
 ##### - Debian/Ubuntu-based:
 ```bash
@@ -59,7 +59,15 @@ mv JetBrainsMono/* ~/.local/share/fonts/Google-Sans-Font
 ```
 
 ##### Clean up the downloaded zip file and extracted directory
+```bash
 rm -rf JetBrainsMono JetBrainsMono.zip
+```
+```bash
+rm -rf Iosevka.zip
+```
+```bash
+rm -rf Google-Sans-Font
+```
 
 ### Acknowledgments
 The Rofi theme **simple-nighttokyo.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection)

@@ -1,4 +1,4 @@
-![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/logo.png)
+![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/Logo.png)
 # <p align="center">Material You - i3wm</p>
 ## <p align="center">⭐ • About</p>
 ![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/Screenshot.png)

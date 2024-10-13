@@ -1,49 +1,43 @@
-# Material You - I3WM Dotfile
-! NOT RELEASED 
+# <p align="center">Material You - i3wm</p>
 
-screns
+## <p align="center">⭐ • About</p>
+<p align="center">i3wm dotfile in the style of "Material You", inspired by Google.</p>
 
-## ⭐ • About
-Dot file in the style of "Material You", inspired by Google. 
-
-## ☘️ • Installation
+## <p align="center">☘️ • Installation</p>
 
 To use this dotfile , follow these steps:
 
-<details> 
-<summary><b>1. Install Dependencies</b></summary>
-
+<details><summary><b>1. Install Dependencies</b></summary>
 
 To install the required packages on different Linux distributions, use the following commands:
 
-<details> 
-<summary><b2>Debian/Ubuntu-based:</b2></summary>
+#### - Debian/Ubuntu-based:
 ```bash
 sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
-##### - Arch/Manjaro
+#### - Arch/Manjaro
 ```bash
 sudo pacman -S git unzip zip picom rofi bluez polybar thunar xclip feh --noconfirm
 ```
-##### - Fedora
+#### - Fedora
 ```bash
 sudo dnf install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
-##### - OpenSUSE
+#### - OpenSUSE
 ```bash
 sudo zypper install git unzip zip picom rofi bluez polybar thunar xclip feh -y
 ```
 </details>
 
 <details> 
-<summary><b2>2. Install Fonts</b2></summary>
+<summary><b>2. Install Fonts</b></summary>
 
-#### • Create a local fonts directory if it doesn't exist
+### • Create a local fonts directory if it doesn't exist
 ```bash
 mkdir -p ~/.local/share/fonts
 ```
 
-#### • Download the fonts zip files
+### • Download the fonts zip files
 ##### - JetBrainsMono
 ```bash
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
@@ -57,7 +51,7 @@ git clone https://github.com/hprobotic/Google-Sans-Font.git
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
 ```
 
-##### • Unzip and move the downloaded files
+### • Unzip and move the downloaded files
 ```bash
 unzip JetBrainsMono.zip -d ~/.local/share/fonts/Iosevka
 ```
@@ -68,7 +62,7 @@ unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
 mv JetBrainsMono/* ~/.local/share/fonts/Google-Sans-Font
 ```
 
-##### • Clean up the downloaded zip file and extracted directory
+### • Clean up the downloaded zip file and extracted directory
 ```bash
 rm -rf JetBrainsMono JetBrainsMono.zip
 ```
@@ -78,6 +72,10 @@ rm -rf Iosevka.zip
 ```bash
 rm -rf Google-Sans-Font
 ```
+</details>
 
-### Acknowledgments
+
+
+## <p align="center">Acknowledgments<p>
 The Rofi theme **simple-tokyonight.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection)
+    

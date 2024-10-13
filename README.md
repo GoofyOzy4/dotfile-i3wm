@@ -1,5 +1,5 @@
-# <p align="center">Material You - i3wm</p>
 ![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/logo.png)
+# <p align="center">Material You - i3wm</p>
 ## <p align="center">⭐ • About</p>
 <p align="center">i3wm dotfile in the style of "Material You", inspired by Google.</p>
 

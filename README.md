@@ -73,8 +73,23 @@ rm -rf Iosevka.zip
 rm -rf Google-Sans-Font
 ```
 </details>
+<details><summary><b>3. Install Dotfile </b></summary>
+
+### • Clone this repository
+
+```bash
+git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
+```
+### • Extract .config files to ~/.config/
+```bash
+cp -r /tmp/dotfile-i3wm/.config/* ~/.config/
+```
+### • Clean up the downloaded zip file
+```bash
+rm -rf /tmp/dotfile-i3wm
+```
+</details>
 
 
-
-## <p align="center">Acknowledgments<p>
+## <p align="center">❤️ Acknowledgments<p>
 The Rofi theme **simple-tokyonight.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection)

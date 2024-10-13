@@ -14,19 +14,19 @@ To install the required packages on different Linux distributions, use the follo
 
 #### - Debian/Ubuntu-based:
 ```bash
-sudo apt update && sudo apt install git unzip zip picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
+sudo apt update && sudo apt install git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 #### - Arch/Manjaro
 ```bash
-sudo pacman -S git unzip zip picom rofi bluez polybar thunar xclip feh noto-fonts-emoji --noconfirm
+sudo pacman -S git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji --noconfirm
 ```
 #### - Fedora
 ```bash
-sudo dnf install git unzip zip picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
+sudo dnf install git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 #### - OpenSUSE
 ```bash
-sudo zypper install git unzip zip picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
+sudo zypper install git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 </details>
 
@@ -119,6 +119,40 @@ cp -r /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 rm -rf /tmp/dotfile-i3wm
 ```
 </details>
+
+## <p align="center">☘️ • Binds</p>
+**More shortcuts and binds** in **~/.config/i3/config**
+
+### Window and shortcuts :
+> Super + C - Close window.
+
+> Super + Q - Open terminal (kitty and hold neofetch).
+
+> Super + E - Open Thunar.
+
+> Super + Shift + V – toggle floating/tiling.
+
+> Super + H - Horisontal split.
+
+> Super + F - Fullscreen toggle.
+
+> Super + Space – toggle focus between modes.
+
+### Screenshots :
+Note : add ctrl for saving to clipboard(xclip) instead of picture folder.
+> PrntSCR - Screenshot to "~/Pictures/".
+
+> Super + PrntSCR - Selection mode screenshot.
+
+> Shift + PrntSCR - App selection mode screenshot.
+
+### i3wm shortcuts:
+
+> Super + Shift + C – reload configuration.
+
+> Super + Shift + R – restart i3 inplace.
+
+> Super + Shift + E – exit i3 (with confirmation).
 
 ## <p align="center">❤️ Acknowledgments</p>
 The Rofi theme **simple-tokyonight.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection)

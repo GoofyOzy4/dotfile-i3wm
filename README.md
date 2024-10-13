@@ -1,5 +1,5 @@
 # <p align="center">Material You - i3wm</p>
-
+![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/logo.png)
 ## <p align="center">⭐ • About</p>
 <p align="center">i3wm dotfile in the style of "Material You", inspired by Google.</p>
 
@@ -78,4 +78,3 @@ rm -rf Google-Sans-Font
 
 ## <p align="center">Acknowledgments<p>
 The Rofi theme **simple-tokyonight.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection)
-    

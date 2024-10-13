@@ -1,0 +1,80 @@
+* {
+  font:   "Google Sans Medium 10.5";
+  background : 		#75805C;
+  foreground : 		#E3ffE3;
+  accent     : 		#9ece6a;
+  urgent     : 		#444d46;
+  border-col : 		#ebffef;
+  background-color : 	transparent;
+  text-color       : 	#c9ffd6;
+  margin  : 		0;
+  padding : 		0;
+  spacing : 		0;
+}
+element-text, scrollbar {
+  cursor: pointer;
+}
+
+
+
+window {
+  location : 		southwest;
+  width    : 		280px;
+  x-offset : 		5px;
+  y-offset : 		-44px;
+
+  background-color:     @background;
+  border: 		1px;
+  border-color:         @border-col;
+  border-radius: 	14px;
+}
+inputbar {
+  spacing  : 		8px;
+  padding  : 		4px 8px;
+  children : 		[ icon-search, entry ];
+  background-color: 	@background;
+}
+
+
+
+icon-search, entry, element-text {
+  vertical-align: 	0.5;
+}
+textbox {
+  padding          : 	4px 8px;
+  background-color : 	@background;
+}
+listview {
+  padding      : 	4px 0px;
+  lines        : 	16;
+  columns      : 	1;
+  scrollbar    : 	true;
+  fixed-height : 	false;
+  dynamic      : 	true;
+}
+element {
+  padding : 		4px 8px;
+  spacing : 		8px;
+}
+element normal urgent {
+  text-color: 		@urgent;
+}
+element normal active {
+  text-color: 		@accent;
+}
+element selected {
+  text-color       : 	@foreground;
+  background-color : 	@accent;
+}
+element-text {
+  text-color: 		inherit;
+}
+icon-search {
+  expand:		false;
+  size:			-7.5px;
+}
+scrollbar {
+  handle-width : 	4px;
+  handle-color : 	@foreground;
+  padding      : 	0 4px;
+}

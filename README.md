@@ -110,7 +110,7 @@ mkdir -p ~/Wallpaper
 ```bash
 git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
 ```
-### • Extract .config files to ~/.config/
+### • Extract Wallpaper to ~/Wallpaper/
 ```bash
 cp -r /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 ```

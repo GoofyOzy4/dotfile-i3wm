@@ -22,10 +22,10 @@ exec_always --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:al
 exec --no-startup-id picom --no-frame-pacing
 
 # - Wallpaper
-exec_always --no-startup-id feh --bg-fill -g 1600x900 ~/Wallpaper/Wallpaper.png
+exec --no-startup-id feh --bg-fill -g 1600x900 ~/Wallpaper/Wallpaper.png
 
 # - Polybar
-exec_always --no-startup-id polybar
+exec --no-startup-id polybar
 
 # - Xclip
 exec --no-startup-id xclip

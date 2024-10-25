@@ -14,19 +14,19 @@ To install the required packages on different Linux distributions, use the follo
 
 #### - Debian/Ubuntu-based:
 ```bash
-sudo apt update && sudo apt install git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
+sudo apt update && sudo apt install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 #### - Arch/Manjaro
 ```bash
-sudo pacman -S git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji --noconfirm
+sudo pacman -S git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji --noconfirm
 ```
 #### - Fedora
 ```bash
-sudo dnf install git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
+sudo dnf install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 #### - OpenSUSE
 ```bash
-sudo zypper install git unzip zip maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
+sudo zypper install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 </details>
 
@@ -60,7 +60,7 @@ unzip JetBrainsMono.zip -d ~/.local/share/fonts/Iosevka
 unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
 ```
 ```bash
-mv Google-Sans-Font/* ~/.local/share/fonts/Google-Sans-Font
+mv Google-Sans-Font ~/.local/share/fonts/
 ```
 
 ### • Clean up the downloaded zip file and extracted directory

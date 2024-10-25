@@ -1,7 +1,6 @@
 #!/bin/bash
 # By Goofy_Ozy4
 # # # # # # # # # # 1. Install Dependencies # # # # # # # # # # #
-
 # Dependencies
 PACKAGES="git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
 
@@ -43,20 +42,18 @@ mv Google-Sans-Font ~/.local/share/fonts/
 fc-cache -fv
 
 # # # # # # # # # 3. Install Dotfiles # # # # # # # # # #
-
 echo "📂 Installing dotfiles..."
-git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
-cp -r /InstallingDot/dotfile-i3wm/.config/* ~/.config/
+git clone https://github.com/GoofyOzy4/dotfile-i3wm ~/InstallingDot/dotfile-i3wm
+cp -r ~/InstallingDot/dotfile-i3wm/.config/* ~/.config/
 cp -r ~/InstallingDot/dotfile-i3wm/.local/share/* ~/.local/share/
 
 # # # # # # # # # 4. Install wallpaper # # # # # # # # # #
-
 echo "🖼️ Setting up wallpapers..."
 mkdir -p ~/Wallpaper
 
-# Завантаження шпалер
+# Download wallpapers
 git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
-cp -r /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
+cp -r ~/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 
 # # # # # # # # # 5. Clear all # # # # # # # # # #
 rm -rf ~/InstallingDot

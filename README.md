@@ -60,7 +60,7 @@ unzip JetBrainsMono.zip -d ~/.local/share/fonts/Iosevka
 unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
 ```
 ```bash
-mv JetBrainsMono/* ~/.local/share/fonts/Google-Sans-Font
+mv Google-Sans-Font/* ~/.local/share/fonts/Google-Sans-Font
 ```
 
 ### • Clean up the downloaded zip file and extracted directory

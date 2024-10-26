@@ -1,8 +1,8 @@
 ![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/Logo.png)
-# <p align="center">Material You - i3wm</p>
+# <p align="center">Material You - i3wm-rounded-borders</p>
 ## <p align="center">⭐ • About</p>
 ![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/Screenshot.png)
-<p align="center"><b>i3wm dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
+<p align="center"><b>i3wm-rounded-borders dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
 
 ## <p align="center">☘️ • Installation</p>
 
@@ -31,6 +31,7 @@ sudo dnf install git unzip zip feh blueberry kitty neofetch maim picom rofi blue
 ```bash
 sudo zypper install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
+### - and install [Pywal16](https://github.com/eylles/pywal16)
 </details>
 
 <details> 

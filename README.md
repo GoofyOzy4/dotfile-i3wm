@@ -31,7 +31,7 @@ sudo dnf install git unzip zip feh blueberry kitty neofetch maim picom rofi blue
 ```bash
 sudo zypper install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
-### - and install [Pywal16](https://github.com/eylles/pywal16)(important) and [Google Dot](https://github.com/ful1e5/Google_Cursor)(optional) adn [Oh-my-ZSH](https://github.com/Crazy-Kitty/oh-my-zsh)(important)
+### - and install [Pywal16](https://github.com/eylles/pywal16)(important) and [Google Dot](https://github.com/ful1e5/Google_Cursor)(optional) and [Oh-my-ZSH](https://github.com/Crazy-Kitty/oh-my-zsh)(important) .
 </details>
 
 <details> 

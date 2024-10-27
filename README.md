@@ -1,7 +1,7 @@
 ![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/Logo.png)
 # <p align="center">Material You - i3wm-rounded-borders</p>
 ## <p align="center">⭐ • About</p>
-![](https://github.com/GoofyOzy4/dotfile-i3wm/bl#ob/main/Photos/Screenshot.png)
+![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/Screenshot1027.png)
 <p align="center"><b>i3wm-rounded-borders dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
 
 ## <p align="center">☘️ • Installation</p>

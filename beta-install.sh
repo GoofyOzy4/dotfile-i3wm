@@ -1,8 +1,8 @@
 #!/bin/bash
 # By Goofy_Ozy4
-# # # # # # # # # # 1. Install Dependencies # # # # # # # # # # #
+# # # # # # # # # # Install Dependencies # # # # # # # # # # #
 # Dependencies
-PACKAGES="git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
+PACKAGES="git unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
 
 # Detect your package manager
 echo "📦 Installing dependencies..."
@@ -19,6 +19,8 @@ else
     sleep 10
     exit
 fi
+
+pip install "pywal16" --break-system-packages
 
 mkdir ~/InstallingDot
 cd ~/InstallingDot
@@ -41,13 +43,13 @@ unzip -q Iosevka.zip -d ~/.local/share/fonts/Iosevka
 mv Google-Sans-Font ~/.local/share/fonts/
 fc-cache -fv
 
-# # # # # # # # # 3. Install Dotfiles # # # # # # # # # #
+# # # # # # # # # Install Dotfiles # # # # # # # # # #
 echo "📂 Installing dotfiles..."
 git clone https://github.com/GoofyOzy4/dotfile-i3wm ~/InstallingDot/dotfile-i3wm
 cp -r ~/InstallingDot/dotfile-i3wm/.config/* ~/.config/
 cp -r ~/InstallingDot/dotfile-i3wm/.local/share/* ~/.local/share/
 
-# # # # # # # # # 4. Install wallpaper # # # # # # # # # #
+# # # # # # # # # Install wallpaper # # # # # # # # # #
 echo "🖼️ Setting up wallpapers..."
 mkdir -p ~/Wallpaper
 
@@ -55,7 +57,11 @@ mkdir -p ~/Wallpaper
 git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
 cp -r ~/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 
-# # # # # # # # # 5. Clear all # # # # # # # # # #
+sleep 1
+wal -i ~/Wallpaper/Wallpaper.png
+sleep 3
+
+# # # # # # # # # Clear all # # # # # # # # # #
 rm -rf ~/InstallingDot
 
 echo "✅ Installation complete! All dependencies, fonts, dotfiles, and wallpaper have been set up."

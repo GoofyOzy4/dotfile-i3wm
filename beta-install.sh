@@ -2,7 +2,7 @@
 # By Goofy_Ozy4
 # # # # # # # # # # Install Dependencies # # # # # # # # # # #
 # Dependencies
-PACKAGES="git unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
+PACKAGES="git zsh unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
 
 # Detect your package manager
 echo "📦 Installing dependencies..."
@@ -20,11 +20,16 @@ else
     exit
 fi
 
+# # # # # # # # # # Install pywal # # # # # # # # # #
 pip install "pywal16" --break-system-packages
 
 mkdir ~/InstallingDot
 cd ~/InstallingDot
 sleep 1
+
+# # # # # # # # # # Install zsh # # # # # # # # # #
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chsh -s $(which zsh)
 
 # # # # # # # # # # Install fonts # # # # # # # # # #
 echo "📁 Setting up fonts..."
@@ -48,13 +53,14 @@ echo "📂 Installing dotfiles..."
 git clone https://github.com/GoofyOzy4/dotfile-i3wm ~/InstallingDot/dotfile-i3wm
 cp -r ~/InstallingDot/dotfile-i3wm/.config/* ~/.config/
 cp -r ~/InstallingDot/dotfile-i3wm/.local/share/* ~/.local/share/
+cp -r ~/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
+cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
 
 # # # # # # # # # Install wallpaper # # # # # # # # # #
 echo "🖼️ Setting up wallpapers..."
 mkdir -p ~/Wallpaper
 
 # Download wallpapers
-git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
 cp -r ~/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 
 sleep 1

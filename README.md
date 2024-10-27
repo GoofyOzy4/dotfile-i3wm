@@ -159,5 +159,4 @@ Note : add ctrl for saving to clipboard(xclip) instead of picture folder.
 > Super + Shift + E – exit i3 (with confirmation).
 
 ## <p align="center">❤️ • Acknowledgments</p>
-The Rofi theme **simple-tokyonight.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection)
-The Neofetch theme **AxylFetch** was modified and taken from [Github Repository](https://github.com/Chick2D/neofetch-themes)
+The Rofi theme **simple-tokyonight.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection) , the Neofetch theme **AxylFetch** was modified and taken from [Github Repository](https://github.com/Chick2D/neofetch-themes)

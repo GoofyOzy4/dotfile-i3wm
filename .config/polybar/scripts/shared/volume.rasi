@@ -1,30 +1,17 @@
-* {
-  font:   "Google Sans Medium 10.5";
-  background : 		#75805C;
-  foreground : 		#E3ffE3;
-  accent     : 		#9ece6a;
-  urgent     : 		#444d46;
-  border-col : 		#ebffef;
-  background-color : 	transparent;
-  text-color       : 	#c9ffd6;
-  margin  : 		0;
-  padding : 		0;
-  spacing : 		0;
-}
 element-text, scrollbar {
   cursor: pointer;
 }
 
-
+@import "~/.cache/wal/colors-rofi-dark.rasi"
 
 window {
-  location : 		southeast;
+  location : 		northeast;
   width    : 		180px;
-  x-offset : 		-148px;
-  y-offset : 		-44px;
+  x-offset : 		-183px;
+  y-offset : 		40px;
 
   background-color:     @background;
-  border: 		1px;
+  border: 		2px;
   border-color:         @border-col;
   border-radius: 	14px;
 }

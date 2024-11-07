@@ -8,7 +8,7 @@
 
 To use this **dotfile** , follow these steps or try this script:
 ```bash
-sudo sh -c "curl -s https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/beta-install.sh | bash"
+sudo sh -c "curl -s https://raw.githubusercontent.com/GoofyOzy4/dotfile-i3wm/main/beta-install.sh | bash"
 ```
 
 <details><summary><b>1. 💾 Install Dependencies</b></summary>

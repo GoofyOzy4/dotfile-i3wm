@@ -31,7 +31,7 @@ exec --no-startup-id picom --no-frame-pacing
 exec --no-startup-id feh --bg-fill -g 1600x900 ~/Wallpaper/Wallpaper.png
 
 # - Wallpaper theme generator (pywal16)
-exec --no-startup-id wal -i $HOME/Wallpaper/Wallpaper.png
+exec --no-startup-id sleep 3 && wal --saturate 0.33 -i $HOME/Wallpaper/Wallpaper.png
 
 # - Polybar
 exec --no-startup-id polybar

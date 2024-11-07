@@ -1,6 +1,6 @@
 * {{
    font       :         "Google Sans Medium 10.5";
-   background :		{color2};
+   background :		{color1}E6;
    foreground :		#ffffff;
    accent :		{color14};
    urgent :		{color14};

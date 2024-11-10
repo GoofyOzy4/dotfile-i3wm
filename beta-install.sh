@@ -46,14 +46,18 @@ echo "Installing fonts..."
 unzip -q JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
 unzip -q Iosevka.zip -d ~/.local/share/fonts/Iosevka
 mv Google-Sans-Font ~/.local/share/fonts/
+sleep 3
 fc-cache -fv
-
+sleep 3
 # # # # # # # # # Install Dotfiles # # # # # # # # # #
 echo "📂 Installing dotfiles..."
 git clone https://github.com/GoofyOzy4/dotfile-i3wm ~/InstallingDot/dotfile-i3wm
 cp -r ~/InstallingDot/dotfile-i3wm/.config ~/
+sleep 1
 cp -r ~/InstallingDot/dotfile-i3wm/.local/share/* ~/.local/share/
+sleep 1
 cp -r ~/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
+sleep 1
 cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
 
 # # # # # # # # # Install wallpaper # # # # # # # # # #

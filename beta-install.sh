@@ -27,10 +27,6 @@ mkdir ~/InstallingDot
 cd ~/InstallingDot
 sleep 1
 
-# # # # # # # # # # Install zsh # # # # # # # # # #
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo chsh -s $(which zsh)
-
 # # # # # # # # # # Install fonts # # # # # # # # # #
 echo "📁 Setting up fonts..."
 mkdir -p ~/.local/share/fonts
@@ -72,6 +68,12 @@ wal -i ~/Wallpaper/Wallpaper.png
 sleep 3
 
 # # # # # # # # # Clear all # # # # # # # # # #
-rm -rf ~/InstallingDot
 
-echo "✅ Installation complete! All dependencies, fonts, dotfiles, and wallpaper have been set up."
+echo "✅ Installation complete! All dependencies, fonts, dotfiles, and wallpaper have been set up. Now i will install zsh !"
+sleep 12
+
+# # # # # # # # # # Install zsh # # # # # # # # # #
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+sudo chsh -s $(which zsh)
+
+rm -rf ~/InstallingDot

@@ -23,13 +23,13 @@ fi
 # # # # # # # # # # Install pywal # # # # # # # # # #
 pip install "pywal16" --break-system-packages
 
-mkdir ~/InstallingDot
-cd ~/InstallingDot
+mkdir $HOME/InstallingDot
+cd $HOME/InstallingDot
 sleep 1
 
 # # # # # # # # # # Install fonts # # # # # # # # # #
 echo "📁 Setting up fonts..."
-mkdir -p ~/.local/share/fonts
+mkdir -p $HOME/.local/share/fonts
 
 echo "• Downloading JetBrainsMono font..."
 wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
@@ -39,32 +39,32 @@ echo "• Downloading Iosevka font..."
 wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
 
 echo "Installing fonts..."
-unzip -q JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
-unzip -q Iosevka.zip -d ~/.local/share/fonts/Iosevka
-mv Google-Sans-Font ~/.local/share/fonts/
+unzip -q JetBrainsMono.zip -d $HOME/.local/share/fonts/JetBrainsMono
+unzip -q Iosevka.zip -d $HOME/.local/share/fonts/Iosevka
+mv Google-Sans-Font $HOME/.local/share/fonts/
 sleep 3
 fc-cache -fv
 sleep 3
 # # # # # # # # # Install Dotfiles # # # # # # # # # #
 echo "📂 Installing dotfiles..."
 git clone https://github.com/GoofyOzy4/dotfile-i3wm ~/InstallingDot/dotfile-i3wm
-cp -r ~/InstallingDot/dotfile-i3wm/.config ~/
+cp -r $HOME/InstallingDot/dotfile-i3wm/.config $HOME/
 sleep 1
-cp -r ~/InstallingDot/dotfile-i3wm/.local/share/* ~/.local/share/
+cp -r $HOME/InstallingDot/dotfile-i3wm/.local/share/* $HOME/.local/share/
 sleep 1
-cp -r ~/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
+cp -r $HOME/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme $HOME/.oh-my-zsh/themes/minimal.zsh-theme
 sleep 1
-cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
+cp -r $HOME/InstallingDot/dotfile-i3wm/.zshrc $HOME/
 
 # # # # # # # # # Install wallpaper # # # # # # # # # #
 echo "🖼️ Setting up wallpapers..."
-mkdir -p ~/Wallpaper
+mkdir -p $HOME/Wallpaper
 
 # Download wallpapers
-cp -r ~/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
+cp -r $HOME/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 
 sleep 1
-wal -i ~/Wallpaper/Wallpaper.png
+wal -i $HOME/Wallpaper/Wallpaper.png
 sleep 3
 
 # # # # # # # # # Clear all # # # # # # # # # #
@@ -76,4 +76,4 @@ sleep 12
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo chsh -s $(which zsh)
 
-rm -rf ~/InstallingDot
+rm -rf $HOME/InstallingDot

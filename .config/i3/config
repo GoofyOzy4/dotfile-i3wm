@@ -31,7 +31,7 @@ exec --no-startup-id picom --no-frame-pacing
 exec --no-startup-id feh --bg-fill -g 1600x900 ~/Wallpaper/Wallpaper.png
 
 # - Wallpaper theme generator (pywal16) and Polybar startup
-exec --no-startup-id ~/.config/i3/startup.sh
+exec --no-startup-id sh ~/.config/i3/startup.sh
 
 # - Xclip
 exec --no-startup-id xclip

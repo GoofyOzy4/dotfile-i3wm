@@ -1,0 +1,99 @@
+element-text, scrollbar {
+  cursor: pointer;
+}
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+inputbar {
+  children :[ "icon-search", "entry" ];
+  spacing : 8px;
+  padding : 5px;
+  border-radius : 8px;
+  margin : 10px 10px 0px 10px;
+  background-color : @PM-Button;
+  enabled : true;
+}
+
+mainbox {
+children: ["message", "inputbar", "listview"];
+}
+
+configuration {
+  show-icons: true;
+}
+
+window {
+  location : northwest;
+  x-offset : 8px;
+  y-offset : 40px;
+  width    : 320px;
+  background-color: @PM-Background;
+  border: 2px;
+  border-color: @border-col;
+  border-radius: 14px;
+}
+
+listview {
+  columns : 1;
+  lines : 8;
+  padding: 12px 0px 12px 10px;
+  spacing: 15px 0px 15px 15px;
+  scrollbar: true;
+}
+
+element {
+  children: [ element-icon, element-text ];
+  orientation: horizontal;
+  spacing: 5px;
+  border-radius: 20px;
+  padding: 5px;
+  margin: 0px;
+  background-color: @PM-Button;
+  text-color: @foreground;
+  highlight: @accent;
+}
+
+element.selected {
+  background-color: @accent;
+  text-color: @foreground;
+  border-radius: 12px;
+}
+
+element-text {
+  font : "Google Sans Medium 10.5";
+  text-color: inherit;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+}
+
+message {
+  enabled : true;
+  margin : 10px 10px 0px 10px;
+  border-radius: 12px;
+  border-color: @foreground;
+  background-color: @PM-Button;
+  text-color: #FFFFFF;
+}
+
+entry, textbox {
+  expand: true;
+  background-color: inherit;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+}
+
+scrollbar {
+  handle-width : 4px;
+  handle-color : @foreground;
+  padding : 0px;
+  margin : 0px 3px 0px -5px; 
+}
+
+element-icon {
+    size: 1.4em;
+}
+
+icon-search {
+  expand: false;
+  size: -7.5px;
+}

@@ -1,0 +1,73 @@
+element-text, scrollbar {
+  cursor: pointer;
+}
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+inputbar {
+enabled: false;
+}
+
+mainbox {
+children: ["listview"];
+}
+
+configuration {
+  show-icons: false;
+}
+
+window {
+  location : center;
+  width    : 270px;
+  height   : 270px;
+  background-color: @PM-Background;
+  border: 2px;
+  border-color: @border-col;
+  border-radius: 14px;
+}
+
+listview {
+  columns : 2;
+  lines : 2;
+  padding: 20px;
+  spacing: 20px;
+  scrollbar: false;
+}
+
+element {
+  orientation: horizontal;
+  border-radius: 100%;
+  padding: 40px 40px;
+  margin: 0px;
+  background-color: @PM-Button;
+  text-color: @foreground;
+  highlight: @accent;
+}
+
+element.selected {
+  background-color: @accent;
+  text-color: @foreground;
+}
+
+element-text {
+  font : "Google Sans Medium 13";
+  text-color: inherit;
+  vertical-align: 0.199;
+  horizontal-align: 0.21;
+}
+
+message {
+  enabled : true;
+  margin : 0px 10px 10px 10px;
+  border-radius: 8px;
+  border-color: @foreground;
+  background-color: @PM-Button;
+  text-color: #FFFFFF;
+}
+
+textbox {
+  expand: true;
+  background-color: inherit;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+}

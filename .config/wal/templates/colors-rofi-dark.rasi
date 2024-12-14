@@ -1,13 +1,18 @@
 * {{
    font       :         "Google Sans Medium 10.5";
-   background :		{color1}E6;
-   foreground :		#ffffff;
-   accent :		{color14};
-   urgent :		{color14};
-   border-col :		{color15};
-   background-color :	transparent;
-   text-color       :	{color7};
-   margin  :		0;
-   padding :		0;
-   spacing :		0;
+   background :         {color1}E6;
+   foreground :         #ffffff;
+   accent :             {color14};
+   urgent :             {color14};
+   border-col :         {color15};
+   background-color :   transparent;
+   text-color       :   {color7};
+   margin  :            0;
+   padding :            0;
+   spacing :            0;
+
+   PM-Background :      #1A1C19;
+   PM-Text :            #FFFFFF;
+   PM-Button :          #303030;
+   PM-ButtonH :         {color14};
 }}

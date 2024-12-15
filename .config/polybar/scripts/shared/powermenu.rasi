@@ -50,7 +50,7 @@ element.selected {
 }
 
 element-text {
-  font : "Google Sans Medium 13";
+  font : "Iosevka Nerd Font 13";
   text-color: inherit;
   vertical-align: 0.199;
   horizontal-align: 0.21;

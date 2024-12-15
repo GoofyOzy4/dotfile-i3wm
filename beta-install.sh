@@ -42,11 +42,6 @@ wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrai
 clear
 
 echo "📁 Setting up fonts..."
-echo "• Downloading Google Sans font..."
-git clone https://github.com/hprobotic/Google-Sans-Font.git
-clear
-
-echo "📁 Setting up fonts..."
 echo "• Downloading Iosevka font..."
 wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Iosevka.zip
 clear
@@ -54,7 +49,7 @@ clear
 echo "📁 Unpacking fonts..."
 unzip -q JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
 unzip -q Iosevka.zip -d ~/.local/share/fonts/Iosevka
-mv Google-Sans-Font ~/.local/share/fonts/
+
 cd ~/InstallingDot
 clear
 

@@ -166,7 +166,7 @@ the Neofetch theme **AxylFetch** was modified and taken from [Github Repository]
 
 ---
 
-## <p align="center">📋 • License
+## <p align="center">📋 • Sources
 ### Themes used as template
 - **[AxylFetch](https://github.com/Chick2D/neofetch-themes/blob/main/small/axylfetch.conf) (NeoFetch theme) - [MIT](https://github.com/Chick2D/neofetch-themes?tab=MIT-1-ov-file#readme)**
 - **[SimpleNightTokio](https://github.com/newmanls/rofi-themes-collection/blob/master/themes/simple-tokyonight.rasi) (Rofi theme - fully rewrited) - [GPL-3.0](https://github.com/newmanls/rofi-themes-collection/tree/master?tab=GPL-3.0-1-ov-file)**

@@ -75,7 +75,7 @@ client.background       $bg
 bindsym $mod+u exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
 
 # - Font
-font "Google Sans Medium:10"
+font "Iosevka:10"
 
 # # # KeyBinds
 # - Screenshots

@@ -2,7 +2,10 @@
 # <p align="center">Material You - i3wm-rounded-borders</p>
 ## <p align="center">⭐ • About</p>
 ![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/Screenshot1107.png)
+###### just like example
 <p align="center"><b>i3wm-rounded-borders dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
+
+---
 
 ## <p align="center">☘️ • Installation</p>
 
@@ -47,10 +50,6 @@ mkdir -p ~/.local/share/fonts
 ```bash
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
 ```
-##### - Google Sans
-```bash
-git clone https://github.com/hprobotic/Google-Sans-Font.git
-```
 ##### - Iosevka
 ```bash
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
@@ -63,9 +62,6 @@ unzip JetBrainsMono.zip -d ~/.local/share/fonts/Iosevka
 ```bash
 unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
 ```
-```bash
-mv Google-Sans-Font ~/.local/share/fonts/
-```
 
 ### • Clean up the downloaded zip file and extracted directory
 ```bash
@@ -73,9 +69,6 @@ rm -rf JetBrainsMono JetBrainsMono.zip
 ```
 ```bash
 rm -rf Iosevka.zip
-```
-```bash
-rm -rf Google-Sans-Font
 ```
 </details>
 <details><summary><b>3. 🎨 Install Dotfile </b></summary>
@@ -130,6 +123,8 @@ rm -rf /tmp/dotfile-i3wm
 ```
 </details>
 
+---
+
 ## <p align="center">☘️ • Binds</p>
 **More shortcuts and binds** in **~/.config/i3/config**
 
@@ -164,5 +159,18 @@ Note : add ctrl for saving to clipboard(xclip) instead of picture folder.
 
 > Super + Shift + E – exit i3 (with confirmation).
 
+---
+
 ## <p align="center">❤️ • Acknowledgments</p>
-The Rofi theme **simple-tokyonight.rasi** was modified and taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection) , the Neofetch theme **AxylFetch** was modified and taken from [Github Repository](https://github.com/Chick2D/neofetch-themes)
+the Neofetch theme **AxylFetch** was modified and taken from [Github Repository](https://github.com/Chick2D/neofetch-themes)
+
+---
+
+## <p align="center">📋 • License
+### Themes used as template
+- **[AxylFetch](https://github.com/Chick2D/neofetch-themes/blob/main/small/axylfetch.conf) (NeoFetch theme) - [MIT](https://github.com/Chick2D/neofetch-themes?tab=MIT-1-ov-file#readme)**
+- **[SimpleNightTokio](https://github.com/newmanls/rofi-themes-collection/blob/master/themes/simple-tokyonight.rasi) (Rofi theme - fully rewrited) - [GPL-3.0](https://github.com/newmanls/rofi-themes-collection/tree/master?tab=GPL-3.0-1-ov-file)**
+
+### Fonts
+- **[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono?tab=readme-ov-file) - [OFL-1.1](https://github.com/JetBrains/JetBrainsMono?tab=OFL-1.1-1-ov-file#readme)**
+- **[Iosevka](https://github.com/be5invis/Iosevka) - [OFL-1.1](https://github.com/be5invis/Iosevka?tab=OFL-1.1-1-ov-file)**

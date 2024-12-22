@@ -9,9 +9,9 @@ PACKAGES="git zsh unzip zip python3 python-pip feh blueberry kitty neofetch maim
 # Detect your package manager
 echo "📦 Installing dependencies..."
 if command -v apt >/dev/null; then
-    sudo apt update && sudo apt install -y $PACKAGES
+    sudo apt update && sudo apt install -y autotiling $PACKAGES
 elif command -v pacman >/dev/null; then
-    sudo pacman -Sy $PACKAGES --noconfirm
+    sudo pacman -Sy autotiling $PACKAGES --noconfirm
 elif command -v dnf >/dev/null; then
     sudo dnf install -y $PACKAGES
 elif command -v zypper >/dev/null; then
@@ -66,10 +66,6 @@ cp -r ~/InstallingDot/dotfile-i3wm/.config ~/
 sleep 1
 cp -r ~/InstallingDot/dotfile-i3wm/.local/share/* ~/.local/share/
 sleep 1
-cp -r ~/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
-sleep 1
-cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
-clear
 # # # # # # # # # Install wallpaper # # # # # # # # # #
 echo "🖼️ Setting up wallpapers..."
 mkdir -p ~/Wallpaper
@@ -88,6 +84,9 @@ sleep 12
 
 # # # # # # # # # # Install zsh # # # # # # # # # #
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-sudo chsh -s $(which zsh)
-
+kitty sudo chsh -s $(which zsh)
+cp -r ~/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
+sleep 1
+cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
+clear
 rm -rf ~/InstallingDot

@@ -27,6 +27,9 @@ exec_always --no-startup-id "setxkbmap -model pc104 -layout us,ru -option grp:al
 # - Picom compositor
 exec --no-startup-id picom --no-frame-pacing
 
+# - Autotiling service
+exec --no-startup-id autotiling
+
 # - Wallpaper
 exec --no-startup-id feh --bg-fill -g 1600x900 ~/Wallpaper/Wallpaper.png
 

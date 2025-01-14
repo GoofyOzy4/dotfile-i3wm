@@ -37,8 +37,26 @@ clear
 echo "📁 Setting up fonts..."
 mkdir -p ~/.local/share/fonts
 
+echo "📁 Setting up fonts..."
 echo "• Downloading JetBrainsMono font..."
 wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip
+clear
+
+echo "📁 Setting up fonts..."
+echo "• Downloading Popins font..."
+wget --no-hsts -cNP ~/.local/share/fonts/Poppins/ \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Regular.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Bold.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Italic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-BoldItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Light.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-LightItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Medium.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-MediumItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBold.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBoldItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Thin.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-ThinItalic.ttf
 clear
 
 echo "📁 Setting up fonts..."

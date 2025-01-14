@@ -171,3 +171,4 @@ the Neofetch theme **AxylFetch** was modified and taken from [Github Repository]
 ### Fonts
 - **[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono?tab=readme-ov-file) - [OFL-1.1](https://github.com/JetBrains/JetBrainsMono?tab=OFL-1.1-1-ov-file#readme)**
 - **[Iosevka](https://github.com/be5invis/Iosevka) - [OFL-1.1](https://github.com/be5invis/Iosevka?tab=OFL-1.1-1-ov-file)**
+- **[Poppins (Google Fonts)](https://fonts.google.com/specimen/Poppins) - [OFL-1.1](https://fonts.google.com/specimen/Poppins/license)**

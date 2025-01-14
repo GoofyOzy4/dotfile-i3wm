@@ -25,7 +25,7 @@ fi
 sleep 5
 # # # # # # # # # # Install pywal # # # # # # # # # #
 clear
-echo "📁 Setting up pywal16..."
+echo "📁 Setting up color pallete generator (pywal16)..."
 sudo pip install "pywal16" --break-system-packages
 
 mkdir ~/InstallingDot
@@ -91,8 +91,9 @@ mkdir -p ~/Wallpaper
 # Download wallpapers
 cp -r ~/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 
+echo "🖼️ Auto-generating color pallete from wallpaper..."
 sleep 1
-wal -i ~/Wallpaper/Wallpaper.png
+kitty wal -i ~/Wallpaper/Wallpaper.png
 sleep 3
 
 # # # # # # # # # Clear all # # # # # # # # # #
@@ -102,7 +103,7 @@ sleep 12
 
 # # # # # # # # # # Install zsh # # # # # # # # # #
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-kitty sudo chsh -s $(which zsh)
+kitty chsh -s $(which zsh)
 cp -r ~/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
 sleep 1
 cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/

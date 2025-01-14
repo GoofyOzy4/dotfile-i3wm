@@ -1,4 +1,4 @@
-![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/new-logo.png)
+![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/new-logo-fix.png)
 # <p align="center">Material You - i3wm</p>
 <p align="center"><b>i3wm-rounded-borders dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
 

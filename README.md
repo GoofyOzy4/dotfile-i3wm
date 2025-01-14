@@ -4,7 +4,7 @@
 
 ---
 
-## <p align="center">☘️ • Installation</p>
+## <p align="center">⭐ • Installation</p>
 
 To use this **dotfile** , follow these steps or try this script:
 ```bash
@@ -21,7 +21,7 @@ sudo apt update && sudo apt install git unzip zip feh blueberry kitty neofetch m
 ```
 #### - Arch/Manjaro
 ```bash
-sudo pacman -S git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji --noconfirm
+sudo pacman -S git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh autotiling noto-fonts-emoji --noconfirm
 ```
 #### - Fedora
 ```bash
@@ -46,6 +46,22 @@ mkdir -p ~/.local/share/fonts
 ##### - JetBrainsMono
 ```bash
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
+```
+##### - Poppins
+```bash
+wget --no-hsts -cNP ~/.local/share/fonts/Poppins/ \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Regular.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Bold.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Italic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-BoldItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Light.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-LightItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Medium.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-MediumItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBold.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBoldItalic.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Thin.ttf \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-ThinItalic.ttf
 ```
 ##### - Iosevka
 ```bash

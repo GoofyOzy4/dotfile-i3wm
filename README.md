@@ -175,14 +175,14 @@ Note : add ctrl for saving to clipboard(xclip) instead of picture folder.
 ---
 
 ## <p align="center">❤️ • Acknowledgments</p>
-the Neofetch theme **AxylFetch** was modified and taken from [Github Repository](https://github.com/Chick2D/neofetch-themes)
-
+- The Neofetch theme **AxylFetch** was modified and taken from [Github Repository](https://github.com/Chick2D/neofetch-themes).
+- The Rofi theme **Simple-Night-tokio** which was used as a template, was completely fully modified/rewrited and helped me understand the structure of rofi themes taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection/blob/master/themes/simple-tokyonight.rasi).
 ---
 
-## <p align="center">📋 • Sources
+## <p align="center">📋 • Sources & License
 ### Themes used as template
 - **[AxylFetch](https://github.com/Chick2D/neofetch-themes/blob/main/small/axylfetch.conf) (NeoFetch theme) - [MIT](https://github.com/Chick2D/neofetch-themes?tab=MIT-1-ov-file#readme)**
-- **[SimpleNightTokio](https://github.com/newmanls/rofi-themes-collection/blob/master/themes/simple-tokyonight.rasi) (Rofi theme - fully rewrited) - [GPL-3.0](https://github.com/newmanls/rofi-themes-collection/tree/master?tab=GPL-3.0-1-ov-file)**
+- **[SimpleNightTokio](https://github.com/newmanls/rofi-themes-collection/blob/master/themes/simple-tokyonight.rasi) (Rofi "template") - [GPL-3.0](https://github.com/newmanls/rofi-themes-collection/tree/master?tab=GPL-3.0-1-ov-file)**
 
 ### Fonts
 - **[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono?tab=readme-ov-file) - [OFL-1.1](https://github.com/JetBrains/JetBrainsMono?tab=OFL-1.1-1-ov-file#readme)**

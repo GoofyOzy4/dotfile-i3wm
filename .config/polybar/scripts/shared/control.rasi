@@ -52,7 +52,7 @@ element.selected {
 }
 
 element-text {
-  font : "Iosevka Nerd Font 11";
+  font : "Poppins SemiBold 10";
   text-color: inherit;
   vertical-align: 0.5;
   horizontal-align: 0.5;

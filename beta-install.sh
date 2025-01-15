@@ -4,7 +4,7 @@
 # Dependencies
 clear
 sleep 3
-PACKAGES="git zsh unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
+PACKAGES="git zsh imagemagick unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
 
 # Detect your package manager
 echo "📦 Installing dependencies..."
@@ -36,6 +36,7 @@ sleep 5
 clear
 echo "📁 Setting up fonts..."
 mkdir -p ~/.local/share/fonts
+clear
 
 echo "📁 Setting up fonts..."
 echo "• Downloading JetBrainsMono font..."
@@ -104,7 +105,7 @@ sleep 12
 # # # # # # # # # # Install zsh # # # # # # # # # #
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 kitty chsh -s $(which zsh)
-cp -r ~/InstallingDot/detfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
+cp -r ~/InstallingDot/dotfile-i3wm/.oh-my-zsh/themes/minimal.zsh-theme ~/.oh-my-zsh/themes/minimal.zsh-theme
 sleep 1
 cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
 clear

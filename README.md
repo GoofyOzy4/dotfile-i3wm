@@ -1,6 +1,8 @@
-![](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/new-logo-fix.png)
+![logo](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/new-logo-fix.png)
 # <p align="center">Material You - i3wm</p>
-<p align="center"><b>i3wm-rounded-borders dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
+![Screenshot](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example.png)
+###### Just example
+<p align="center"><b>i3wm dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
 
 ---
 
@@ -82,6 +84,10 @@ rm -rf JetBrainsMono JetBrainsMono.zip
 ```
 ```bash
 rm -rf Iosevka.zip
+```
+### • Generate a new font cache
+```bash
+fc-cache -fv
 ```
 </details>
 <details><summary><b>3. 🎨 Install Dotfile </b></summary>

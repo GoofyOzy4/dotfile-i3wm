@@ -21,7 +21,6 @@ window {
   x-offset : -8px;
   y-offset : 40px;
   width    : 270px;
-  height   : 209px;
   background-color: @PM-Background;
   border: 2px;
   border-color: @border-col;
@@ -29,16 +28,16 @@ window {
 }
 
 listview {
-  columns : 10;
-  lines : 2;
-  padding: 10px 10px 16px 10px;
-  spacing: 15px;
-  scrollbar: false;
+  columns : 1;
+  lines : 3;
+  margin: 11px 10px;
+  spacing: 3px;
+  border-radius: 12px;
 }
 
 element {
   orientation: horizontal;
-  border-radius: 100%;
+  border-radius: 0px;
   padding: 10px 10px;
   margin: 0px;
   background-color: @PM-Button;
@@ -52,15 +51,16 @@ element.selected {
 }
 
 element-text {
-  font : "Poppins SemiBold 10";
+  font : "Poppins SemiBold 11";
   text-color: inherit;
   vertical-align: 0.5;
-  horizontal-align: 0.5;
+  horizontal-align: 0;
 }
 
 message {
   enabled : true;
   margin : 10px 10px 0px 10px;
+  padding : 2px;
   border-radius: 12px;
   border-color: @foreground;
   background-color: @PM-Button;

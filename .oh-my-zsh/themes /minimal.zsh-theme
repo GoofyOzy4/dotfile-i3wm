@@ -23,4 +23,4 @@ vcs_status() {
   fi
 }
 
-PROMPT=' %B%2~ $(vcs_status)%b'
+PROMPT='%B%2~ $(vcs_status)%b'

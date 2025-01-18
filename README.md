@@ -41,24 +41,24 @@ sh -c "curl -s https://raw.githubusercontent.com/GoofyOzy4/dotfile-i3wm/main/bet
 
 #### 1. Install Dependencies
 
-**Debian/Ubuntu**:
+**Debian(SID)/Ubuntu**:
 ```sh
-sudo apt update && sudo apt install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip noto-fonts-emoji -y
+sudo apt update && sudo apt install git zsh imagemagick unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji autotiling -y
 ```
 
 **Arch/Manjaro**:
 ```sh
-sudo pacman -S git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip autotiling noto-fonts-emoji --noconfirm
+sudo pacman -S git zsh imagemagick unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji autotiling --noconfirm
 ```
 
 **Fedora**:
 ```sh
-sudo dnf install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip noto-fonts-emoji -y
+sudo dnf install git zsh imagemagick unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 
 **OpenSUSE**:
 ```sh
-sudo zypper install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip noto-fonts-emoji -y
+sudo zypper install git zsh imagemagick unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 
 #### 2. Install Fonts

@@ -92,10 +92,12 @@ mkdir -p ~/Wallpaper
 # Download wallpapers
 cp -r ~/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 
-echo "🖼️ Auto-generating color pallete from wallpaper..."
+echo "🖼️ Auto-generating color pallete from wallpaper and check dunst..."
 sleep 1
 kitty wal -i ~/Wallpaper/Wallpaper.png
 kitty ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
+dunst &
+notify-send "Test" "If you see this message - dunst work!" -i ~/Wallpaper/Wallpaper.png
 sleep 3
 
 # # # # # # # # # Clear all # # # # # # # # # #
@@ -111,3 +113,5 @@ sleep 1
 cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
 clear
 rm -rf ~/InstallingDot
+notify-send "app" "Rebooting..." -i ~/Wallpaper/Wallpaper.png
+reboot

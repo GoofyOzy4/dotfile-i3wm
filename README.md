@@ -15,11 +15,11 @@
 This dotfile offers simplicity , embracing the Material You design principles. Key features:
 - **[i3wm](https://github.com/i3/i3)**: Customizable window manager *(Better with [rounded border patch](https://aur.archlinux.org/packages/i3-rounded-border-patch-git))*.
 - **[Polybar](https://github.com/polybar/polybar)**: Status bar with advanced customization.
-- **[Rofi](https://github.com/davatorium/rofi)**: Application launcher.
+- **[Rofi](https://github.com/davatorium/rofi)**: Application launcher and some panels.
 - **[Pywal16](https://github.com/eylles/pywal16)**: Wallpaper-based color schemes.
-- **[Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)**: Enhanced shell experience.
-- **[Kitty](https://github.com/kovidgoyal/kitty)**: Fast terminal emulator.
-- **[Picom](https://github.com/yshui/picom)**: Lightweight compositor with effects.
+- **[Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)**: Enhanced and customized shell.
+- **[Kitty](https://github.com/kovidgoyal/kitty)**: Lightweight and customized terminal emulator.
+- **[Picom](https://github.com/yshui/picom)**: Lightweight compositor with effects for x11.
 - **[Blueberry](https://github.com/linuxmint/blueberry)**: Bluetooth manager.
 - **[Neofetch](https://github.com/dylanaraps/neofetch)**: System info display.
 - **[Thunar](https://docs.xfce.org/xfce/thunar/start)**: File manager.

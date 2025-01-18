@@ -7,7 +7,7 @@
 ## ✨ About
 <a>
    <picture>
-      <source media="(prefers-color-scheme: dark)" alt="" align="right" width="470px" srcset="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example.png"/>
+      <source media="(prefers-color-scheme: dark)" alt="" align="right" width="470px" srcset="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example+.png"/>
       <img alt="" align="right" width="470px" src="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example.png"/>
    </picture>
 </a>

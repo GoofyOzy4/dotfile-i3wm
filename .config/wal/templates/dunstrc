@@ -1,0 +1,27 @@
+[global]
+    font = Poppins SemiBold 9
+
+    width = 280
+    origin = top-right
+    offset = (8, 40)
+
+    frame_width = 2
+    separator_height = 1
+    corner_radius = 14
+    padding = 8
+    
+    background = "{color0}69"
+    foreground = "{color7}"
+    separator_color = frame
+    frame_color = "{color6}8C"
+
+    markup = full
+    format = "<b>%a</b>\n%b"
+
+    timeout = 10
+    notification_limit = 12
+
+    min_icon_size = 24
+    max_icon_size = 32
+    icon_position = left
+

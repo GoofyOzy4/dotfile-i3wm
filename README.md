@@ -1,191 +1,126 @@
 ![logo](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/new-logo-fix.png)
-# <p align="center">Material You - i3wm</p>
-![Screenshot](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example.png)
-###### Just example
-<p align="center"><b>i3wm dotfile</b> in the style of <b>"Material You"</b>, <i>inspired by Google</i>.</p>
+
+# <p align="center">🎨 Material You - i3wm</p>
 
 ---
 
-## <p align="center">⭐ • Installation</p>
+## ✨ About
+<a>
+   <picture>
+      <source media="(prefers-color-scheme: dark)" alt="" align="right" width="470px" srcset="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example.png"/>
+      <img alt="" align="right" width="470px" src="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example.png"/>
+   </picture>
+</a>
 
-To use this **dotfile** , follow these steps or try this script:
-```bash
+This dotfile offers simplicity , embracing the Material You design principles. Key features:
+- **[i3wm](https://github.com/i3/i3)**: Customizable window manager *(Better with [rounded border patch](https://aur.archlinux.org/packages/i3-rounded-border-patch-git))*.
+- **[Polybar](https://github.com/polybar/polybar)**: Status bar with advanced customization.
+- **[Rofi](https://github.com/davatorium/rofi)**: Application launcher.
+- **[Pywal16](https://github.com/eylles/pywal16)**: Wallpaper-based color schemes.
+- **[Oh-My-ZSH](https://github.com/ohmyzsh/ohmyzsh)**: Enhanced shell experience.
+- **[Kitty](https://github.com/kovidgoyal/kitty)**: Fast terminal emulator.
+- **[Picom](https://github.com/yshui/picom)**: Lightweight compositor with effects.
+- **[Blueberry](https://github.com/linuxmint/blueberry)**: Bluetooth manager.
+- **[Neofetch](https://github.com/dylanaraps/neofetch)**: System info display.
+- **[Thunar](https://docs.xfce.org/xfce/thunar/start)**: File manager.
+
+---
+
+## 📦 Installation
+
+### Quick Install
+```sh
 sh -c "curl -s https://raw.githubusercontent.com/GoofyOzy4/dotfile-i3wm/main/beta-install.sh | sh"
 ```
 
-<details><summary><b>1. 💾 Install Dependencies</b></summary>
+<details>
+<summary><b>Manual Steps</b></summary>
 
-To install the required packages on different Linux distributions, use the following commands:
+#### 1. Install Dependencies
 
-#### - Debian/Ubuntu-based:
-```bash
-sudo apt update && sudo apt install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
+**Debian/Ubuntu**:
+```sh
+sudo apt update && sudo apt install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip noto-fonts-emoji -y
 ```
-#### - Arch/Manjaro
-```bash
-sudo pacman -S git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh autotiling noto-fonts-emoji --noconfirm
-```
-#### - Fedora
-```bash
-sudo dnf install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
-```
-#### - OpenSUSE
-```bash
-sudo zypper install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
-```
-### - and install [Pywal16](https://github.com/eylles/pywal16)(important) and [Google Dot](https://github.com/ful1e5/Google_Cursor)(optional) and [Oh-my-ZSH](https://github.com/Crazy-Kitty/oh-my-zsh)(important) .
-</details>
 
-<details> 
-<summary><b>2. 💬 Install Fonts</b></summary>
+**Arch/Manjaro**:
+```sh
+sudo pacman -S git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip autotiling noto-fonts-emoji --noconfirm
+```
 
-### • Create a local fonts directory if it doesn't exist
+**Fedora**:
+```sh
+sudo dnf install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip noto-fonts-emoji -y
+```
+
+**OpenSUSE**:
+```sh
+sudo zypper install git unzip zip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip noto-fonts-emoji -y
+```
+
+#### 2. Install Fonts
+
 ```bash
 mkdir -p ~/.local/share/fonts
-```
 
-### • Download the fonts zip files
-##### - JetBrainsMono
-```bash
+# JetBrains Mono
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsMono.zip
-```
-##### - Poppins
-```bash
+unzip JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
+
+# Poppins
 wget --no-hsts -cNP ~/.local/share/fonts/Poppins/ \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Regular.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Bold.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Italic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-BoldItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Light.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-LightItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Medium.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-MediumItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBold.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBoldItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Thin.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-ThinItalic.ttf
-```
-##### - Iosevka
-```bash
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-{Regular,Bold,Italic,BoldItalic,Light,LightItalic,Medium,MediumItalic,SemiBold,SemiBoldItalic,Thin,ThinItalic}.ttf
+
+# Iosevka
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
-```
-
-### • Unzip and move the downloaded files
-```bash
-unzip JetBrainsMono.zip -d ~/.local/share/fonts/Iosevka
-```
-```bash
 unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
-```
 
-### • Clean up the downloaded zip file and extracted directory
-```bash
-rm -rf JetBrainsMono JetBrainsMono.zip
-```
-```bash
-rm -rf Iosevka.zip
-```
-### • Generate a new font cache
-```bash
+rm -rf JetBrainsMono.zip Iosevka.zip
 fc-cache -fv
 ```
-</details>
-<details><summary><b>3. 🎨 Install Dotfile </b></summary>
 
-### • Clone this repository
-
+#### 3. Install Dotfile
 ```bash
 git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
-```
-### • Extract dotfiles to your system
-```bash
 cp -r /tmp/dotfile-i3wm/.config/* ~/.config/
-```
-```bash
 cp -r /tmp/dotfile-i3wm/.local/share/* ~/.local/share/
-```
-```bash
-cp -r /tmp/dotfile-i3wm/.zshrc ~/
-```
-```bash
-cp -r /tmp/dotfile-i3wm/.oh-my-zsh/* ~/.oh-my-zsh/
-```
-
-### • Clean up the downloaded zip file
-```bash
+cp /tmp/dotfile-i3wm/.zshrc ~/.
 rm -rf /tmp/dotfile-i3wm
 ```
 </details>
 
-</details>
-<details><summary><b>4. 🖼️ Wallpapers </b></summary>
+---
 
-**Wallpapers** are located in **~/Wallpaper/** , they should be named **Wallpaper.png** *(Other formats are also supported but you need to change the config in ~/.config/i3/config)*
+## 🎨 Wallpapers
 
-To install my wallpaper, which is included in the dotfile, you need to write these commands:
-
-### • Create a wallpaper directory if it doesn't exist
+Wallpapers are in **`~/Wallpaper/`**. To set the default wallpaper:
 ```bash
 mkdir -p ~/Wallpaper
+cp /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 ```
-### • Clone this repository
-```bash
-git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
-```
-### • Extract Wallpaper to ~/Wallpaper/
-```bash
-cp -r /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
-```
-### • Clean up the downloaded zip file
-```bash
-rm -rf /tmp/dotfile-i3wm
-```
-</details>
 
 ---
 
-## <p align="center">☘️ • Binds</p>
-**More shortcuts and binds** in **~/.config/i3/config**
+## ⚙️ Keybindings
 
-### Window and shortcuts :
-> Super + C - Close window.
+<pre align="center">
+   <a>You can find more keybindings in ~/.config/i3/config</a>
+</pre>
 
-> Super + Q - Open terminal (kitty and hold neofetch).
+| Action               | Key Combination          |
+|----------------------|--------------------------|
+| Close window         | **Super + C**           |
+| Open terminal        | **Super + Q**           |
+| Open Thunar          | **Super + E**           |
+| Horizontal split     | **Super + H**           |
+| Toggle fullscreen    | **Super + F**           |
+| Reload config        | **Super + Shift + C**   |
+| Restart i3wm         | **Super + Shift + R**   |
 
-> Super + E - Open Thunar.
-
-> Super + Shift + V – toggle floating/tiling.
-
-> Super + H - Horisontal split.
-
-> Super + F - Fullscreen toggle.
-
-> Super + Space – toggle focus between modes.
-
-### Screenshots :
-Note : add ctrl for saving to clipboard(xclip) instead of picture folder.
-> PrntSCR - Screenshot to "~/Pictures/".
-
-> Super + PrntSCR - Selection mode screenshot.
-
-> Shift + PrntSCR - App selection mode screenshot.
-
-### i3wm shortcuts:
-
-> Super + Shift + C – reload configuration.
-
-> Super + Shift + R – restart i3 inplace.
-
-> Super + Shift + E – exit i3 (with confirmation).
 
 ---
 
-## <p align="center">❤️ • Acknowledgments</p>
-- The Neofetch theme **AxylFetch** was modified and taken from [Github Repository](https://github.com/Chick2D/neofetch-themes).
-- The Rofi theme **Simple-Night-tokio** which was used as a template, was completely fully modified/rewrited and helped me understand the structure of rofi themes taken from [Github Repository](https://github.com/newmanls/rofi-themes-collection/blob/master/themes/simple-tokyonight.rasi).
----
-
-## <p align="center">📋 • Sources & License
+## 📜 License & Credits
 ### Themes used as template
 - **[AxylFetch](https://github.com/Chick2D/neofetch-themes/blob/main/small/axylfetch.conf) (NeoFetch theme) - [MIT](https://github.com/Chick2D/neofetch-themes?tab=MIT-1-ov-file#readme)**
 - **[SimpleNightTokio](https://github.com/newmanls/rofi-themes-collection/blob/master/themes/simple-tokyonight.rasi) (Rofi "template") - [GPL-3.0](https://github.com/newmanls/rofi-themes-collection/tree/master?tab=GPL-3.0-1-ov-file)**

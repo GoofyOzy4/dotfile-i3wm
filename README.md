@@ -23,7 +23,7 @@ This dotfile offers simplicity , embracing the Material You design principles. K
 - **[Blueberry](https://github.com/linuxmint/blueberry)**: Bluetooth manager.
 - **[Neofetch](https://github.com/dylanaraps/neofetch)**: System info display.
 - **[Thunar](https://docs.xfce.org/xfce/thunar/start)**: File manager.
-- **[Dunst(soon)]()**:Customizable notify daemon.
+- **[Dunst](https://github.com/dunst-project/dunst)**: Customizable notify daemon.
 
 I hope you liked it! If you want to support this dotfile, just click on the star. You can also fork it and make your own edits.
 

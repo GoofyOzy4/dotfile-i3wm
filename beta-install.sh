@@ -4,7 +4,7 @@
 # Dependencies
 clear
 sleep 3
-PACKAGES="git zsh imagemagick unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
+PACKAGES="git zsh imagemagick dunst unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
 
 # Detect your package manager
 echo "📦 Installing dependencies..."
@@ -95,6 +95,7 @@ cp -r ~/InstallingDot/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 echo "🖼️ Auto-generating color pallete from wallpaper..."
 sleep 1
 kitty wal -i ~/Wallpaper/Wallpaper.png
+kitty ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 sleep 3
 
 # # # # # # # # # Clear all # # # # # # # # # #

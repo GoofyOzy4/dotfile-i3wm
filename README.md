@@ -7,7 +7,7 @@
 ## ✨ About
 <a>
    <picture>
-      <source media="(prefers-color-scheme: dark)" alt="" align="right" width="370px" srcset="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example+.png"/>
+      <source media="(prefers-color-scheme: dark)" alt="" align="right" width="310px" srcset="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example+.png"/>
       <img alt="" align="right" width="470px" src="https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/example.png"/>
    </picture>
 </a>
@@ -23,6 +23,9 @@ This dotfile offers simplicity , embracing the Material You design principles. K
 - **[Blueberry](https://github.com/linuxmint/blueberry)**: Bluetooth manager.
 - **[Neofetch](https://github.com/dylanaraps/neofetch)**: System info display.
 - **[Thunar](https://docs.xfce.org/xfce/thunar/start)**: File manager.
+- **[Dunst(soon)]()**:Customizable notify daemon.
+
+I hope you liked it! If you want to support this dotfile, just click on the star. You can also fork it and make your own edits.
 
 ---
 

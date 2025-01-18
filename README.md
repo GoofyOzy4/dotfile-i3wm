@@ -61,6 +61,8 @@ sudo dnf install git zsh imagemagick unzip zip python3 python-pip feh blueberry 
 sudo zypper install git zsh imagemagick unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji -y
 ```
 
+###  [important : Pywal 16](https://github.com/eylles/pywal16) ; [Not important : Google Dot Cursor](https://github.com/ful1e5/Google_Cursor)
+
 #### 2. Install Fonts
 
 ```bash
@@ -87,7 +89,7 @@ fc-cache -fv
 git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
 cp -r /tmp/dotfile-i3wm/.config/* ~/.config/
 cp -r /tmp/dotfile-i3wm/.local/share/* ~/.local/share/
-cp /tmp/dotfile-i3wm/.zshrc ~/.
+cp /tmp/dotfile-i3wm/.zshrc ~/
 rm -rf /tmp/dotfile-i3wm
 ```
 </details>
@@ -98,6 +100,7 @@ rm -rf /tmp/dotfile-i3wm
 
 Wallpapers are in **`~/Wallpaper/`**. To set the default wallpaper:
 ```bash
+git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm
 mkdir -p ~/Wallpaper
 cp /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 ```

@@ -131,8 +131,7 @@ cp /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 ---
 |To-do|Status|
 |-----|------|
-|Material polybar|-|
-|Implement full chromium fix|-|
+|Material polybar|+|
 |Rofi control center|-|
 |Make customization panel?|-|
 

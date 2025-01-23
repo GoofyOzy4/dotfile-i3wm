@@ -18,8 +18,8 @@ configuration {
 
 window {
   location : northeast;
-  x-offset : -8px;
-  y-offset : 40px;
+  x-offset : -3px;
+  y-offset : 36px;
   width    : 270px;
   background-color: @PM-Background;
   border: 2px;

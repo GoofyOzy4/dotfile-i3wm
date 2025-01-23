@@ -50,10 +50,10 @@ element.selected {
 }
 
 element-text {
-  font : "Iosevka Nerd Font 13";
+  font : "Material Symbols Outlined 14";
   text-color: inherit;
-  vertical-align: 0.199;
-  horizontal-align: 0.21;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
 }
 
 message {

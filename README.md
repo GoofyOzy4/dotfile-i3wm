@@ -80,6 +80,10 @@ https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-{Regular
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
 unzip Iosevka.zip -d ~/.local/share/fonts/Iosevka
 
+# Material icons
+wget --no-hsts -cNP ~/.local/share/fonts/Material-icons/ \
+https://raw.githubusercontent.com/google/material-design-icons/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.ttf
+
 rm -rf JetBrainsMono.zip Iosevka.zip
 fc-cache -fv
 ```

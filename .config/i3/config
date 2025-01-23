@@ -40,8 +40,11 @@ exec --no-startup-id sh ~/.config/i3/startup.sh
 exec --no-startup-id xclip
 
 # # # Customizations
-# -  Windows border
+# -  Windows rules
 for_window [title="Library"] floating enable
+for_window [class="polybar"] border none
+
+# - Window border
 default_border pixel 4
 
 # - Windows gaps

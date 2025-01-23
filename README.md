@@ -147,3 +147,4 @@ cp /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 - **[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono?tab=readme-ov-file) - [OFL-1.1](https://github.com/JetBrains/JetBrainsMono?tab=OFL-1.1-1-ov-file#readme)**
 - **[Iosevka](https://github.com/be5invis/Iosevka) - [OFL-1.1](https://github.com/be5invis/Iosevka?tab=OFL-1.1-1-ov-file)**
 - **[Poppins (Google Fonts)](https://fonts.google.com/specimen/Poppins) - [OFL-1.1](https://fonts.google.com/specimen/Poppins/license)**
+- **[Material Symbols (Google Fonts)](https://fonts.google.com/icons?icon.size=24&icon.color=undefined) - [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)**

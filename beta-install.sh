@@ -103,13 +103,10 @@ sleep 1
 kitty wal -i ~/Wallpaper/Wallpaper.png
 kitty ln -sf ~/.cache/wal/dunstrc ~/.config/dunst/dunstrc
 dunst &
+sleep 1
 notify-send "Test" "If you see this message - dunst work!" -i ~/Wallpaper/Wallpaper.png
 sleep 3
-
-# # # # # # # # # Clear all # # # # # # # # # #
-clear
-echo "✅ Installation complete! All dependencies, fonts, dotfiles, and wallpaper have been set up. Now i will install zsh !"
-sleep 12
+notify-send "Test" "Write sudo pass." -i ~/Wallpaper/Wallpaper.png
 
 # # # # # # # # # # Install zsh # # # # # # # # # #
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -119,5 +116,10 @@ sleep 1
 cp -r ~/InstallingDot/dotfile-i3wm/.zshrc ~/
 clear
 rm -rf ~/InstallingDot
-notify-send "app" "Rebooting..." -i ~/Wallpaper/Wallpaper.png
-reboot
+notify-send "app" "Done !"
+
+# # # # # # # # # Clear all # # # # # # # # # #
+clear
+echo "✅ Installation complete!"
+sleep 10
+exit 0

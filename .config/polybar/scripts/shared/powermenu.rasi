@@ -45,7 +45,7 @@ element {
 }
 
 element.selected {
-  background-color: @accent;
+  background-color: @PM-ButtonH;
   text-color: @foreground;
 }
 

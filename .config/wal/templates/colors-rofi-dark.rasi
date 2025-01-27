@@ -14,5 +14,5 @@
    PM-Background :      #1A1C19;
    PM-Text :            #FFFFFF;
    PM-Button :          #303030;
-   PM-ButtonH :         {background};
+   PM-ButtonH :         {color2};
 }}

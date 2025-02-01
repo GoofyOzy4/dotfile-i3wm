@@ -102,7 +102,7 @@ rm -rf /tmp/dotfile-i3wm
 
 ## 🎨 Wallpapers
 
-### Thanks very much for the wallpaper @xienuss !
+### Thanks very much for the wallpaper [@xienuss](https://github.com/xienuss) !
 
 Wallpapers are in **`~/Wallpaper/`**. To set the default wallpaper:
 ```bash

@@ -1,5 +1,5 @@
 * {{
-   font       :         "Poppins SemiBold 10";
+   font       :         "Roboto Regular 11";
    background :         {color1}E6;
    foreground :         #ffffff;
    accent :             {color14};
@@ -11,8 +11,7 @@
    padding :            0;
    spacing :            0;
 
-   PM-Background :      #1A1C19;
-   PM-Text :            #FFFFFF;
-   PM-Button :          #303030;
-   PM-ButtonH :         {color2};
+   Material-Dark-Background :      #1A1C19;
+   Material-Dark-Button :          #303030;
+   Material-ButtonH :         {color2};
 }}

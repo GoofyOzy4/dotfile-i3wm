@@ -102,6 +102,8 @@ rm -rf /tmp/dotfile-i3wm
 
 ## 🎨 Wallpapers
 
+### Thanks very much for the wallpaper @xienuss !
+
 Wallpapers are in **`~/Wallpaper/`**. To set the default wallpaper:
 ```bash
 git clone https://github.com/GoofyOzy4/dotfile-i3wm /tmp/dotfile-i3wm

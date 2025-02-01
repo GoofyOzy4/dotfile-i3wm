@@ -20,7 +20,7 @@ window {
   location : center;
   width    : 270px;
   height   : 270px;
-  background-color: @PM-Background;
+  background-color: @Material-Dark-Background;
   border: 2px;
   border-color: @border-col;
   border-radius: 14px;
@@ -39,13 +39,13 @@ element {
   border-radius: 100%;
   padding: 40px 40px;
   margin: 0px;
-  background-color: @PM-Button;
+  background-color: @Material-Dark-Button;
   text-color: @foreground;
   highlight: @accent;
 }
 
 element.selected {
-  background-color: @PM-ButtonH;
+  background-color: @Material-ButtonH;
   text-color: @foreground;
 }
 
@@ -61,8 +61,8 @@ message {
   margin : 0px 10px 10px 10px;
   border-radius: 8px;
   border-color: @foreground;
-  background-color: @PM-Button;
-  text-color: #FFFFFF;
+  background-color: @Material-Dark-Button;
+  text-color: @foreground;
 }
 
 textbox {

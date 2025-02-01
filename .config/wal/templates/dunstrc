@@ -1,5 +1,5 @@
 [global]
-    font = Poppins SemiBold 9
+    font = Roboto 10
 
     width = 280
     origin = top-right

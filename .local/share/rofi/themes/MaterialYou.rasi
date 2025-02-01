@@ -11,7 +11,7 @@ inputbar {
   border-radius : 50%;
   border-color : #FFFFFF33;
   margin : 9px 9px 0px 9px;
-  background-color : @PM-Button;
+  background-color : @Material-Dark-Button;
   enabled : true;
 }
 
@@ -28,7 +28,7 @@ window {
   x-offset : 3px;
   y-offset : 36px;
   width    : 320px;
-  background-color: @PM-Background;
+  background-color: @Material-Dark-Background;
   border: 2px;
   border-color: @border-col;
   border-radius: 14px;
@@ -47,18 +47,18 @@ element {
   orientation: horizontal;
   border-radius: 0px;
   padding: 12px;
-  background-color: @PM-Button;
+  background-color: @Material-Dark-Button;
   text-color: @foreground;
   highlight: @accent;
 }
 
 element.selected {
-  background-color: @PM-ButtonH;
+  background-color: @Material-ButtonH;
   text-color: @foreground;
 }
 
 element-text {
-  font : "Poppins SemiBold 10";
+  font : "Roboto 11";
   text-color: inherit;
   vertical-align: 0.5;
   horizontal-align: 0;
@@ -70,7 +70,7 @@ message {
   margin : 10px 10px 0px 10px;
   border-radius: 12px;
   border-color: @foreground;
-  background-color: @PM-Button;
+  background-color: @Material-Dark-Button;
   text-color: #FFFFFF;
 }
 

@@ -82,7 +82,7 @@ client.background       $bg
 bindsym $mod+u exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
 
 # - Font
-font "Roboto:10"
+font "Poppins Medium:10"
 
 # # # KeyBinds
 # - Screenshots

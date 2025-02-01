@@ -44,24 +44,12 @@ wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrai
 clear
 
 echo "📁 Setting up fonts..."
-echo "• Downloading Popins font..."
-wget --no-hsts -cNP ~/.local/share/fonts/Poppins/ \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Regular.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Bold.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Italic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-BoldItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Light.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-LightItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Medium.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-MediumItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBold.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-SemiBoldItalic.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-Thin.ttf \
-https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-ThinItalic.ttf
+echo "• Downloading Roboto font..."
+wget --no-hsts -cNP ~/.local/share/fonts/Roboto https://github.com/google/fonts/raw/d305b235e44fdf12fde64c2b26d395ba9eb2fb35/ofl/roboto/Roboto-Italic%5Bwdth,wght%5D.ttf
 clear
 
 echo "📁 Setting up fonts..."
-echo "• Material icons font..."
+echo "• Material symbols font..."
 wget --no-hsts -cNP ~/.local/share/fonts/Material-icons/ \
 https://raw.githubusercontent.com/google/material-design-icons/master/variablefont/MaterialSymbolsOutlined%5BFILL%2CGRAD%2Copsz%2Cwght%5D.ttf
 clear

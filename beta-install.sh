@@ -44,8 +44,9 @@ wget -q https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrai
 clear
 
 echo "📁 Setting up fonts..."
-echo "• Downloading Roboto font..."
-wget --no-hsts -cNP ~/.local/share/fonts/Roboto https://github.com/google/fonts/raw/d305b235e44fdf12fde64c2b26d395ba9eb2fb35/ofl/roboto/Roboto%5Bwdth,wght%5D.ttf
+echo "• Downloading Poppins font..."
+wget --no-hsts -cNP ~/.local/share/fonts/Poppins/ \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-{Regular,Bold,Italic,BoldItalic,Light,LightItalic,Medium,MediumItalic,SemiBold,SemiBoldItalic,Thin,ThinItalic}.ttf
 clear
 
 echo "📁 Setting up fonts..."

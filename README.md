@@ -73,8 +73,8 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/JetBrainsM
 unzip JetBrainsMono.zip -d ~/.local/share/fonts/JetBrainsMono
 
 # Poppins
-wget --no-hsts -cNP ~/.local/share/fonts/Roboto/ \
-https://github.com/google/fonts/raw/d305b235e44fdf12fde64c2b26d395ba9eb2fb35/ofl/roboto/Roboto-Italic%5Bwdth,wght%5D.ttf
+wget --no-hsts -cNP ~/.local/share/fonts/Poppins/ \
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/Poppins-{Regular,Bold,Italic,BoldItalic,Light,LightItalic,Medium,MediumItalic,SemiBold,SemiBoldItalic,Thin,ThinItalic}.ttf
 
 # Iosevka
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/Iosevka.zip
@@ -145,5 +145,5 @@ cp /tmp/dotfile-i3wm/Wallpaper/Wallpaper.png ~/Wallpaper/
 ### Fonts
 - **[JetBrains Mono](https://github.com/JetBrains/JetBrainsMono?tab=readme-ov-file) - [OFL-1.1](https://github.com/JetBrains/JetBrainsMono?tab=OFL-1.1-1-ov-file#readme)**
 - **[Iosevka](https://github.com/be5invis/Iosevka) - [OFL-1.1](https://github.com/be5invis/Iosevka?tab=OFL-1.1-1-ov-file)**
-- **[Roboto (Google Fonts)](https://fonts.google.com/specimen/Roboto) - [OFL-1.1](https://fonts.google.com/specimen/Roboto/license)**
+- **[Poppins (Google Fonts)](https://fonts.google.com/specimen/Poppins) - [OFL-1.1](https://fonts.google.com/specimen/Poppins/license)**
 - **[Material Symbols (Google Fonts)](https://fonts.google.com/icons?icon.size=24&icon.color=undefined) - [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)**

@@ -1,5 +1,5 @@
 [global]
-    font = Google Sans Medium 10
+    font = Roboto 10
 
     width = 280
     origin = top-right

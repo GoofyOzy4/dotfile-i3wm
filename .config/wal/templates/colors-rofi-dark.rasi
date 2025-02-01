@@ -1,5 +1,5 @@
 * {{
-   font       :         "Poppins Medium 11";
+   font       :         "Poppins Medium 10";
    background :         {color1}E6;
    foreground :         #ffffff;
    accent :             {color14};

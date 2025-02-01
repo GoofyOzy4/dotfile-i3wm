@@ -1,5 +1,5 @@
 * {{
-   font       :         "Roboto Regular 11";
+   font       :         "Poppins Medium 11";
    background :         {color1}E6;
    foreground :         #ffffff;
    accent :             {color14};

@@ -17,9 +17,9 @@ configuration {
 }
 
 window {
-  location : northeast;
+  location : southeast;
   x-offset : -3px;
-  y-offset : 36px;
+  y-offset : -36px;
   width    : 270px;
   background-color: @Material-Dark-Background;
   border: 2px;

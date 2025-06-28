@@ -24,9 +24,9 @@ configuration {
 }
 
 window {
-  location : northwest;
+  location : southwest;
   x-offset : 3px;
-  y-offset : 36px;
+  y-offset : -36px;
   width    : 320px;
   background-color: @Material-Dark-Background;
   border: 2px;

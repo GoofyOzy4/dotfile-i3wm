@@ -1,3 +1,6 @@
+<pre align="center">
+   <a>Global update release!</a>
+</pre>
 ![logo](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/new-logo-fix.png)
 
 # <p align="center">🎨 Material You - i3wm</p>

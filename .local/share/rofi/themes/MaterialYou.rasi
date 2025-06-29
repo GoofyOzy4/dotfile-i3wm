@@ -24,10 +24,10 @@ configuration {
 }
 
 window {
-  location : southwest;
-  x-offset : 3px;
-  y-offset : -36px;
-  width    : 320px;
+  location : center;
+  x-offset : 0px;
+  y-offset : 0px;
+  width    : 380px;
   background-color: @Material-Dark-Background;
   border: 2px;
   border-color: @border-col;

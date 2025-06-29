@@ -1,0 +1,111 @@
+element-text, scrollbar {
+  cursor: pointer;
+}
+
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+
+inputbar {
+  children :[ "icon-search", "entry" ];
+  padding : 10px;
+  border : 1.5px;
+  border-radius : 00%;
+  border-color : #FFFFFF33;
+  margin : 0px;
+  enabled : true;
+}
+
+icon-search {
+  size: 15px;
+  expand: false;
+  filename: "search";
+  background-color: @Material-Dark-Button;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+mainbox {
+children: ["message", "inputbar", "listview"];
+}
+
+configuration {
+  show-icons: true;
+}
+
+window {
+  location : southwest;
+  x-offset : 1px;
+  y-offset : -48px;
+  width    : 640px;
+  background-color: @Material-Dark-Background;
+  border: 2px;
+  border-color: @border-col;
+  border-radius: 14px;
+}
+
+listview {
+  columns : 5;
+  lines : 6;
+  margin: 5px 4px;
+  spacing: 14px 14px;
+  layout: vertical;
+  scrollbar: true;
+}
+
+element {
+  children: [ element-icon, element-text ];
+  orientation: vertical;
+  border-radius: 0px;
+  padding: 20px 5px 20px 5px;
+  text-color: @foreground;
+  highlight: @accent;
+}
+
+element.selected {
+  background-color: @Material-ButtonH;
+  text-color: @foreground;
+  border-radius: 16px;
+  padding : 5px;
+}
+
+element-text {
+  font : "Poppins Medium 11";
+  text-color: inherit;
+  vertical-align: 20px;
+  horizontal-align: 0.5;
+  margin: 5px 0px 0px 0px;
+  width: 0%;
+}
+
+message {
+  enabled : true;
+  margin : 10px 10px 0px 10px;
+  border-radius: 12px;
+  border-color: @foreground;
+  background-color: @Material-Dark-Button;
+  text-color: #FFFFFF;
+}
+
+entry {
+  expand: true;
+  background-color: inherit;
+  vertical-align: 0.5;
+  margin: 0px 8px 0px 8px;
+}
+
+textbox {
+  expand: true;
+  background-color: inherit;
+  vertical-align: 0.5;
+  horizontal-align: 0.5;
+}
+
+element-icon {
+  size: 40px;
+}
+
+scrollbar {
+  handle-width : 4px;
+  handle-color : @foreground;
+  padding : 0px;
+  margin : 0px; 
+}

@@ -4,7 +4,7 @@
 # Dependencies
 clear
 sleep 3
-PACKAGES="git zsh imagemagick dunst unzip zip python3 python-pip feh blueberry kitty neofetch maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
+PACKAGES="git zsh imagemagick dunst unzip zip python3 python-pip feh blueberry kitty maim picom rofi bluez polybar thunar xclip feh noto-fonts-emoji"
 
 # Detect your package manager
 echo "📦 Installing dependencies..."

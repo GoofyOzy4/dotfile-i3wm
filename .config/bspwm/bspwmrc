@@ -1,0 +1,40 @@
+#! /bin/sh
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+#  __  __         _                _         _  __     __               #
+# |  \/  |       | |              (_)       | | \ \   / /               #
+# | \  / |  __ _ | |_   ___  _ __  _   __ _ | |  \ \_/ /   ___   _   _  #
+# | |\/| | / _` || __| / _ \| '__|| | / _` || |   \   /   / _ \ | | | | #
+# | |  | || (_| || |_ |  __/| |   | || (_| || |    | |   | (_) || |_| | #
+# |_|  |_| \__,_| \__| \___||_|   |_| \__,_||_|    |_|    \___/  \__,_| #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+# --- Start
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# - Auto-start
+if ! pgrep -x "picom" > /dev/null; then
+	picom --no-frame-pacing &
+	xclip &
+	$HOME/.config/bspwm/startup.sh &
+	sleep 1
+fi
+
+bspc monitor -d I II III IV V VI VII VIII IX X
+
+# - Borders and gap
+bspc config border_width         1
+bspc config window_gap           4
+
+# - Idk how to name that
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc config pointer_modifier    mod4
+bspc config pointer_action1	move
+bspc config pointer_action2	resize_side
+bspc config pointer_action3	resize_corner
+
+# - Some window rules
+bspc rule -a '*' state=floating
+bspc rule -a 'nmtui-poly' recentagle 400x400+0+0 state=floating

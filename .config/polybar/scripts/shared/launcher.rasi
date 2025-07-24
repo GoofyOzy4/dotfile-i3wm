@@ -33,11 +33,12 @@ configuration {
 
 window {
   location : southwest;
-  x-offset : 1px;
-  y-offset : -48px;
-  width    : 640px;
+  x-offset : 5px;
+  y-offset : -52px;
+  height   : 700px;
+  width    : 620px;
   background-color: @Material-Dark-Background;
-  border: 2px;
+  border: 1px;
   border-color: @border-col;
   border-radius: 14px;
 }

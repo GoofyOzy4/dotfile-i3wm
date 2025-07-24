@@ -58,18 +58,24 @@ super + {_,shift + }{1-9,0}
 
 # ---------- Screenshots
 
-print
+Print
 	maim "/home/$USER/Pictures/$(date).png"
-super + print
+super + Print
 	maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).png"
-shift + print
+shift + Print
 	maim --select "/home/$USER/Pictures/$(date).png"
 
 # --- Clipboard Screenshots
 
-control + print
+ctrl + Print
 	maim | xclip -selection clipboard -t image/png
-control + super + print
+ctrl + super + Print
 	maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
-control + shift + print
+ctrl + shift + Print
 	maim --select | xclip -selection clipboard -t image/png
+
+# --- FM BUTTONS
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +10%
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -10%

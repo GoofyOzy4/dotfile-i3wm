@@ -47,7 +47,7 @@ for_window [class="polybar"] border none
 for_window [title="nmtui-poly"] floating enable, resize set 500 500, move position center
 
 # - Window border
-default_border pixel 1
+default_border pixel 4
 
 # - Windows gaps
 gaps inner 8

@@ -35,7 +35,7 @@ window {
   location : southwest;
   x-offset : 5px;
   y-offset : -52px;
-  height   : 700px;
+  height   : 641px;
   width    : 620px;
   background-color: @Material-Dark-Background;
   border: 1px;

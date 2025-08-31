@@ -107,6 +107,10 @@ clear
 rm -rf ~/InstallingDot
 notify-send "app" "Done !"
 
+# Set permissions for bspwm
+sudo chmod +x ~/.config/bspwm/bspwmrc
+chmod +x ~/.config/sxhkd/sxhkdrc
+chmod +x ~/.config/bspwm/startup.sh
 # # # # # # # # # Clear all # # # # # # # # # #
 clear
 echo "✅ Installation complete!"

@@ -69,7 +69,7 @@ element.selected {
 }
 
 element-text {
-  font : "Poppins Medium 11";
+  font : "Google Sans Medium 11";
   text-color: inherit;
   vertical-align: 20px;
   horizontal-align: 0.5;

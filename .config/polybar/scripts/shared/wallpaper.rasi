@@ -6,22 +6,13 @@ element-text, scrollbar {
 
 inputbar {
   children :[ "icon-search", "entry" ];
-  padding : 10px;
+  padding : 7px;
   border : 1.5px;
-  border-radius : 00%;
+  border-radius : 50%;
   border-color : #FFFFFF33;
-  margin : 0px;
+  margin : 9px 9px 0px 9px;
+  background-color : @Material-Dark-Button;
   enabled : true;
-}
-
-icon-search {
-  size: 18px;
-  expand: false;
-  filename: "~/.config/polybar/scripts/shared/search.png";
-  font : "Material Symbols Outlined 14";
-  background-color: @Material-Dark-Button;
-  border-radius: 50%;
-  padding: 8px;
 }
 
 mainbox {
@@ -36,29 +27,27 @@ window {
   location : southwest;
   x-offset : 5px;
   y-offset : -52px;
-  height   : 644px;
-  width    : 605px;
+  width    : 500px;
   background-color: @Material-Dark-Background;
-  border: 1px;
+  border: 2px;
   border-color: @border-col;
   border-radius: 14px;
 }
 
 listview {
-  fixed-height: true;
-  columns : 5;
-  lines : 5;
-  margin: 5px 4px;
-  spacing: 14px 14px;
-  layout: vertical;
-  scrollbar: true;
+  fixed-height: false;
+  columns : 1;
+  margin: 11px 10px;
+  spacing: 5px 3px;
+  border-radius: 12px;
 }
 
 element {
   children: [ element-icon, element-text ];
-  orientation: vertical;
+  orientation: horizontal;
   border-radius: 0px;
-  padding: 20px 5px 20px 5px;
+  padding: 12px;
+  background-color: @Material-Dark-Button;
   text-color: @foreground;
   highlight: @accent;
 }
@@ -66,17 +55,14 @@ element {
 element.selected {
   background-color: @Material-ButtonH;
   text-color: @foreground;
-  border-radius: 16px;
-  padding : 5px;
 }
 
 element-text {
-  font : "Google Sans Medium 11";
+  font : "Poppins Medium 10";
   text-color: inherit;
-  vertical-align: 20px;
-  horizontal-align: 0.5;
-  margin: 5px 0px 0px 0px;
-  width: 90px;
+  vertical-align: 0.5;
+  horizontal-align: 0;
+  margin: 0px 0px 0px 7px;
 }
 
 message {
@@ -88,14 +74,7 @@ message {
   text-color: #FFFFFF;
 }
 
-entry {
-  expand: true;
-  background-color: inherit;
-  vertical-align: 0.5;
-  margin: 0px 8px 0px 8px;
-}
-
-textbox {
+entry, textbox {
   expand: true;
   background-color: inherit;
   vertical-align: 0.5;
@@ -103,7 +82,13 @@ textbox {
 }
 
 element-icon {
-  size: 40px;
+  size: 78px;
+  border-radius: 12px;
+}
+
+icon-search {
+  expand: false;
+  size: 0px;
 }
 
 scrollbar {
@@ -111,5 +96,4 @@ scrollbar {
   handle-color : @foreground;
   padding : 0px;
   margin : 0px; 
-  border-radius: 0px 0px 3px 0px;
 }

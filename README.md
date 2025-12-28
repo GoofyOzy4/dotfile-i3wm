@@ -1,5 +1,5 @@
 <pre align="center">
-   <a>Global update release!</a>
+   <a>I3WM and BSPWM !</a>
 </pre>
 ![logo](https://github.com/GoofyOzy4/dotfile-i3wm/blob/main/Photos/new-logo-fix.png)
 

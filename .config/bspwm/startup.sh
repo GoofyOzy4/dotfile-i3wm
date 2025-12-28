@@ -1,6 +1,6 @@
 #!/bin/sh
-wal -i $HOME/Wallpaper/Wallpaper.png --saturate 0.05
-sleep 0.5
+wal -i "$HOME/.config/bspwm/wallpaper.img" --saturate 0.03
+sleep 0.3
 dunst &
-sleep 1
+sleep 0.5
 polybar &
